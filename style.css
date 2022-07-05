@@ -1,22 +1,42 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #006ba8;
+    
 }
 
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    /* background: url('images/heroImage.jpeg'); */
     background-size:cover;
     position:relative;
 }
+
+
+.nav-link{
+    
+    font-size: 20px;
+    color: #000000;
+   
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    color: #150E56;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .hero_desc {
     font-size: 2rem;
+    color: #150E56;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.about-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -25,6 +45,8 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+
 
 /* spacing on all sections */
 /* #about, #services, #portfolio, #contact {
@@ -51,12 +73,23 @@
 }
 .card-title {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .card:hover .servicesIcon {
     color: #008000;
+ 
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.certificateText:hover{
+    border: 5px solid #143F6B;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 5px solid #143F6B;
 }
 
 /* social media icons styling */
@@ -67,6 +100,14 @@
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #008000;
 }
+.prolink{
+    font-size: 20px;
+    
+}
+
+
+
+
 .fab {
     color: #000000;
 }
@@ -74,4 +115,13 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.icon-img{
+
+    margin-left: 40%;
+    margin-top: 20%;
+    width: 80px;
+    height: 50px;
+
 }
